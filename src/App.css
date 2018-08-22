@@ -1,0 +1,203 @@
+div.pageContainer {
+  width: 100%;
+  height: 100%;
+  background-color: #f1f1f1;
+}
+
+div.pageHeader {
+  width: 100%;
+  height: 96px;
+  background-color: #adb5bd;
+}
+
+div.companyInfo {
+  padding: 32px;
+}
+
+img.companyLogo {
+  display: inline-block;
+  vertical-align: middle;
+  width: 32px;
+  height: 32px;
+}
+
+span.companyName {
+  display: inline-block;
+  vertical-align: text-top;
+  margin-left: 16px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+div.pageBody {
+  margin: auto; /* Should the box be aligned in middle or with company logo? */
+  width: 912px;
+  height: 100%;
+  padding: 32px;
+  padding-top: 64px;
+}
+
+div.userCreate {
+  padding: 16px;
+  background-color: #ffffff;
+  margin-bottom: 10px;
+}
+
+input.userCreateInput {
+  background-color: #fafafa;
+  border: 1px solid #eeeeee;
+  line-height: 40px;
+  margin-right: 16px;
+  padding-left: 10px;
+}
+
+input.userCreateInputName {
+  width: 152px;
+} 
+
+input.userCreateInputEmail {
+  width: 264px;
+} 
+
+input.userCreateInputPhone {
+  width: 184px;
+} 
+
+input.userCreateInputSubmit {
+  width: 110px;
+  margin-left: 86px;
+  margin-right: 0px;
+  color: #757575;
+  font-weight: 600;
+  padding-left: 0px;
+} 
+
+form.userEditForm {
+  background-color: #ffffff;
+  border-bottom: 1px solid #f1f1f1;
+  width: 100%;
+}
+
+input.userEditInput {
+  display: inline-block;
+  background-color: #fafafa;
+  border: 1px solid #eeeeee;
+  line-height: 40px;
+  padding-left: 10px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+input.userEditInputName {
+  width: 155px;
+} 
+
+input.userEditInputEmail {
+  width: 270px;
+} 
+
+input.userEditInputPhone {
+  width: 210px;
+} 
+
+input.userEditInputCancel {
+  width: 80px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #07f;
+  margin-right: 10px;
+  padding: 0px;
+} 
+
+input.userEditInputSave {
+  width: 80px;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: #07f;
+  color: #ffffff;
+  padding: 0px;
+} 
+
+h1.pageTitle {
+  color: #757575;
+  padding-bottom: 24px;
+}
+
+div.userTable {
+  display: block;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+div.userTableRow {
+  display: block;
+  background-color: #ffffff;
+  border-bottom: 1px solid #f1f1f1;
+  width: 100%;
+}
+
+div.userTableHeader {
+  display: inline-block;
+  color: #757575;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 500;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 24px;
+}
+
+div.userTableHeaderName {
+  width: 155px;
+  padding-left: 24px;
+}
+
+div.userTableHeaderEmail {
+  width: 270px;
+}
+
+div.userTableHeaderPhone {
+  width: 210px;
+}
+
+div.userTableHeaderEdit {
+  width: 170px;
+}
+
+div.userTableCell {
+  display: inline-block;
+  color: #505050;
+  height: 72px;
+  line-height: 72px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+div.userTableCellName {
+  width: 155px;
+  padding-left: 24px;
+}
+
+div.userTableCellEmail {
+  width: 270px;
+  padding-left: 24px;
+}
+
+div.userTableCellPhone {
+  width: 210px;
+  padding-left: 24px;
+}
+
+div.userTableCellEdit {
+  width: 170px;
+  padding-left: 24px;
+  text-align: right;
+}
+
+.iconEdit {
+  color: #909090;
+  width: 24px;
+  height: 24px;
+  margin-left: 20px;
+}
